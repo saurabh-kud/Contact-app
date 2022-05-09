@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import ContactCard from "./ContactCard/contactCard";
 import { Link } from "react-router-dom";
+import "../../CSS/ContactList/contactList.css";
 
 function ContactList(props) {
   function findId(id) {
@@ -17,25 +18,30 @@ function ContactList(props) {
   });
 
   return (
-    <div className="">
-      <h2>
-        Contact List
-        <Link to="/add">
-          <button>add</button>
-        </Link>
-      </h2>
-      <div>
+    <div className="wrapper">
+      <div className="upper">
+        <h2>
+          Contact List
+          <Link to="/add">
+            <button className="btn">add</button>
+          </Link>
+        </h2>
+
         <div>
-          <input
-            ref={searchText}
-            type="text"
-            placeholder="search"
-            onChange={handleSearch}
-            value={props.searchText}
-          ></input>
+          <div>
+            <input
+              ref={searchText}
+              type="text"
+              placeholder="search"
+              onChange={handleSearch}
+              value={props.searchText}
+            ></input>
+          </div>
         </div>
       </div>
-      {renderContactList.length > 0 ? renderContactList : "not avilable"}
+      <div className="container">
+        {renderContactList.length > 0 ? renderContactList : "not avilable"}
+      </div>
     </div>
   );
 }

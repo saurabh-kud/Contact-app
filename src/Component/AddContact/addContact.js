@@ -51,7 +51,7 @@ const AddContact = (props) => {
             ></input>
           </div>
 
-          <button>Add</button>
+          <button style={{ marginRight: "10px" }}>Add</button>
           <Link to="/">
             <button>back</button>
           </Link>
