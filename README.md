@@ -1,5 +1,6 @@
 # Contact Manager web app with backed data and api
 
+<<<<<<< HEAD
 Live Preview - [Click Here](https://contact-manager-ap.netlify.app/)
 
 <br/>
@@ -27,3 +28,10 @@ Pull Requests are welcome. :)
 ## Show your support
 
 Give a ⭐ if you like this website!
+=======
+## Live prereview (https://contact-manager-ap.netlify.app/)
+
+
+
+https://raw.githubusercontent.com/saurabh-kud/Contact-app/main/public/mokup.png
+>>>>>>> aecd4f0b69e9cdef61ae30ae467a03667035ff37
