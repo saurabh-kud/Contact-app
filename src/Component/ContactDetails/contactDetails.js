@@ -9,13 +9,20 @@ function ContactDetails(props) {
 
   return (
     <>
-      <div>
-        <div>
-          <div>
+      <div className="wrapper">
+        <div
+          style={{
+            marginTop: "2rem",
+            border: "1px solid black",
+            borderRadius: "10px",
+            padding: "1rem",
+          }}
+        >
+          <div style={{ marginBottom: "1rem", borderRadius: "25px" }}>
             <img src={user} alt="user" />
           </div>
           <div>{name}</div>
-          <div>{email}</div>
+          <div style={{ margin: "1rem 0 1rem 0" }}>{email}</div>
           <Link to="/">
             <button>back to home</button>
           </Link>

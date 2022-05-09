@@ -12,14 +12,14 @@ function ContactCard(props) {
   return (
     <>
       <div className="form_wrapper">
-        <div>
+        <div style={{ marginBottom: "1rem" }}>
           <Link to={`/contact/${id}`} state={{ contact: props.contact }}>
             <div>{name}</div>
             <div>{email}</div>
           </Link>
         </div>
         <Link to="/delete" state={{ contact: props.contact }}>
-          <FaTrash />
+          <FaTrash style={{ marginRight: "2rem" }} />
         </Link>
         <Link to="/edit" state={{ contact: props.contact }}>
           <FaRegEdit />

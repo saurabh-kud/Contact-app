@@ -56,7 +56,7 @@ const Update = (props) => {
               ></input>
             </div>
 
-            <button>Update</button>
+            <button style={{ marginRight: "2rem" }}>Update</button>
             <Link to="/">
               <button>back</button>
             </Link>

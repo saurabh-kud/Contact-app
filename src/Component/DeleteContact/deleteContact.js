@@ -11,12 +11,16 @@ const DeleteContact = (props) => {
     navigate("/");
   };
   return (
-    <div>
+    <div className="wrapper wrapper_delete">
       <h2>Do you want to delete ?</h2>
-      <button onClick={DeleteContact}>Yes</button>
-      <Link to="/">
-        <button>NO</button>
-      </Link>
+      <div>
+        <button style={{ marginRight: "2rem" }} onClick={DeleteContact}>
+          Yes
+        </button>
+        <Link to="/">
+          <button>NO</button>
+        </Link>
+      </div>
     </div>
   );
 };
