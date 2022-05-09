@@ -5,7 +5,7 @@ Live Preview - [Click Here](https://contact-manager-ap.netlify.app/)
 
 <br/>
 <div align="center">
-  <img alt="Demo" src="public/mockup.png" />
+  <img alt="Demo" src="public/mokup.png" />
 </div>
 <br/>
 <br/>
